@@ -18,6 +18,5 @@ public class LoginTests extends TestBase {
         app.getHelperUser().submitLogin();
         Assert.assertTrue(app.getHelperUser().isLoggedIn());
         app.getHelperUser().loginSuccessfulOK();
-
     }
 }
